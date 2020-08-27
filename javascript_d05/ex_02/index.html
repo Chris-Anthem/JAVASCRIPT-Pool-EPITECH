@@ -1,0 +1,46 @@
+<!-- EXERCICE  02 (3PTS)
+_____
+File to hand in: ex_02/index.html
+ex_02/style.css
+ex_02/ex_02.js
+Define a few CSS classes:
+• A “note” class, putting the border of the element in blue
+• An “email” class, putting the border of the element in green
+• A “todo” class, putting the border of the element in red
+It should now be possible to select one of these 3 types (note, email, todo) when validating the input. You’re
+free on the way you implement this, and you can add more style to your css. However if an input of type
+“email” is created, the element displayed with the content must possess the class CSS “email”. It will work
+the same way for the 2 other types.
+Note: You may need to add some different checks to validate the inputs depending on the type. -->
+
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<form id="myform">
+    <input type="text" type="" name="name"> <br>
+
+    <select name="selectclass" class="selectclass">
+      <option class = "makeclass" value="makedefault">No border</option>
+        <option class = "makeclass" value="note">Note</option>
+        <option class = "makeclass" value="mail">Email</option>
+        <option class = "makeclass" value="todo">Todo</option>
+      </select>
+    <button type="button"> Ajouter </button>
+  </form>
+
+    <ul>
+    </ul>
+    <script src="ex_02.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+
+  </body>
+</html>

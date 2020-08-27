@@ -1,0 +1,42 @@
+<!-- EXERCICE
+_
+_____
+10 (2PTS)
+_____
+File to hand in: ex_10/callback.js
+ex_10/index.html
+Amber alert
+This file must contain a function which selects the elements of class “test” in the page, and makes them disappear.
+In addition, an alert must be sent after the disappearance of the element with the message “The paragraph is now
+hidden.”"  -->
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+</head>
+
+<body>
+<div>
+    <ul id="menu">
+        <li><a type="button" href="#" target='_blank' id="test">Menu </li>
+        <li><a type="button" a href="#" target='_blank'>Menu</li>
+        <li><a type="button" a href="#" target='_new'>Menu</li>
+        <li><a type="button" a href="#" target=''>Menu</li>
+    </ul>
+</div>
+<div>
+    <ul class="test">
+        <li><a href="#" target='_blank' id="test">POUR SORTIR, CLIQUEZ ICI</li>
+        <li><a type="submit"  href="#" target='_blank'>Target blank</li>
+        <li><a type="button"  href="#" target='_new'>Target new</li>
+        <li><a type="button"  href="#" target=''>Target empty</li>
+    </ul>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="animates.js"></script>
+
+</html>

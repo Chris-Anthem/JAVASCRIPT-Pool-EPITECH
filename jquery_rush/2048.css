@@ -1,0 +1,49 @@
+.border{
+    width:400px;
+    height: 400px;
+    border-color: 1px solid;
+    background-color: #FFC400;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+}
+
+#H1{
+    text-align: center;
+    color: yellow;
+}
+#start{
+  margin-left: 48%;
+  margin-right: 47%;
+
+  position: relative;
+
+}
+.cell{
+    width : 25%;
+    height: 25%;
+    border: 3px;
+    background-color:#34495e;
+    color: #FFC400;
+    text-decoration-style: wavy;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+#body{
+    background-color: #FFEA00;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes color{ 0%
+{background-color:#FFC400} 25%
+{background-color: #34495e}25% 
+{background-color:#FFC400} 25%
+{background-color: #34495e}25% 
+{background-color : 100% }
+}

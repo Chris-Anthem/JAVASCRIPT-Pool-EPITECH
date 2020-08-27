@@ -1,0 +1,43 @@
+<!-- EXERCICE
+11 (2PTS)
+______
+_____
+File to hand in: ex_11/append.js
+ex_11/index.html
+Fill the void
+You will now add an input with the id “listItem” in your page. And a button. You must then add a function which
+will be called every time a click happens on this button with the input you just created as parameter.
+This function must add a div after this element, which will contain the value of the element passed as parameter. -->
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+</head>
+
+<body>
+<div>
+    <ul id="menu">
+        <li><a type="button" href="#" target='_blank' id="test">Menu</li>
+        <li><a href="#" target='_blank'>Menu</li>
+        <li><a href="#" target='_new'>Menu</li>
+        <li><a href="#" target=''>Menu</li>
+        <input type="input" id="listItem" placeholder="input">
+        <button type="submit">bouton</button>
+    </ul>
+</div>
+<div>
+    <ul class="test">
+        <li><a href="#" target='_blank' id="test">POUR SORTIR, CLIQUEZ ICI</li>
+        <li><a href="#" target='_blank'>Target blank</li>
+        <li><a href="#" target='_new'>Target new</li>
+        <li><a type="button"  href="#" target=''>Target empty</li>
+    </ul>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="append.js"></script>
+
+</html>
